@@ -1,0 +1,12 @@
+{
+  "name": "lab-sql-online-game",
+  "version": "1.0.0",
+  "description": "Programa de carga de Online_game.csv a MySQL",
+  "main": "carga.js",
+  "scripts": { "carga": "node carga.js" },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7"
+  }
+}
